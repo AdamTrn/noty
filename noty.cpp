@@ -1,11 +1,19 @@
 #include <cstdlib>
 #include <iostream>
+using namespace std;
 
 void modeTranspose (){
     string notes, instrument;
+    bool correct;
+    int notesDec, instrumentDec;
 
-    cout << "Insert key found in notes (ie. \"In C\")\n";
-    cin >> notes;
+    while (!correct)
+    {
+        cout << "Insert key found in notes (ie. \"Trumpet in C\")\n";
+        cin >> notes;
+        notesDec = convert
+    }
+
 }
 
 int main (){
